@@ -2,10 +2,8 @@
 2018-12-29 : Igor Pavlov : Public domain */
 
 #include "Precomp.h"
-
 #include "LzHash.h"
-
-#include "LzFindMt.h"
+#include <win/LzFindMt.h>
 
 static void MtSync_Construct(CMtSync *p)
 {

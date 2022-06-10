@@ -13,10 +13,14 @@
 #endif
 
 #include "LzmaEnc.h"
-
 #include "LzFind.h"
+
 #ifndef _7ZIP_ST
-#include "LzFindMt.h"
+#   ifdef _MSC_VER
+#       include <win/LzFindMt.h>
+#   else
+#       include "LzFindMt.h"
+#   endif
 #endif
 
 #ifdef SHOW_STAT

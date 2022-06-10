@@ -4,7 +4,11 @@
 #ifndef __LZ_FIND_MT_H
 #define __LZ_FIND_MT_H
 
-#include "LzFind.h"
+#ifdef _WIN32
+#   include "../LzFind.h"
+#else
+#i  nclude "LzFind.h"
+#endif
 #include "Threads.h"
 
 EXTERN_C_BEGIN

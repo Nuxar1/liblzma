@@ -7,7 +7,11 @@
 #include <process.h>
 #endif
 
-#include "Threads.h"
+#ifdef _WIN32
+#   include <win/Threads.h>
+#else
+#   include "Threads.h"
+#endif
 
 static WRes GetError()
 {
