@@ -7,20 +7,32 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liblzma", "liblzma.vcxproj"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+		DebugMDd|x64 = DebugMDd|x64
+		DebugMDd|x86 = DebugMDd|x86
+		DebugMTd|x64 = DebugMTd|x64
+		DebugMTd|x86 = DebugMTd|x86
+		ReleaseMD|x64 = ReleaseMD|x64
+		ReleaseMD|x86 = ReleaseMD|x86
+		ReleaseMT|x64 = ReleaseMT|x64
+		ReleaseMT|x86 = ReleaseMT|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.Debug|x64.ActiveCfg = Debug|x64
-		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.Debug|x64.Build.0 = Debug|x64
-		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.Debug|x86.ActiveCfg = Debug|Win32
-		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.Debug|x86.Build.0 = Debug|Win32
-		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.Release|x64.ActiveCfg = Release|x64
-		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.Release|x64.Build.0 = Release|x64
-		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.Release|x86.ActiveCfg = Release|Win32
-		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.Release|x86.Build.0 = Release|Win32
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.DebugMDd|x64.ActiveCfg = DebugMDd|x64
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.DebugMDd|x64.Build.0 = DebugMDd|x64
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.DebugMDd|x86.ActiveCfg = DebugMDd|Win32
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.DebugMDd|x86.Build.0 = DebugMDd|Win32
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.DebugMTd|x64.ActiveCfg = DebugMTd|x64
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.DebugMTd|x64.Build.0 = DebugMTd|x64
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.DebugMTd|x86.ActiveCfg = DebugMTd|Win32
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.DebugMTd|x86.Build.0 = DebugMTd|Win32
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.ReleaseMD|x64.ActiveCfg = ReleaseMD|x64
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.ReleaseMD|x64.Build.0 = ReleaseMD|x64
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.ReleaseMD|x86.ActiveCfg = ReleaseMD|Win32
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.ReleaseMD|x86.Build.0 = ReleaseMD|Win32
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.ReleaseMT|x64.ActiveCfg = ReleaseMT|x64
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.ReleaseMT|x64.Build.0 = ReleaseMT|x64
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.ReleaseMT|x86.ActiveCfg = ReleaseMT|Win32
+		{27DB24C1-C679-4CEF-97A6-C22F5CC08FF6}.ReleaseMT|x86.Build.0 = ReleaseMT|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
