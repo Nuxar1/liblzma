@@ -1,4 +1,4 @@
-aname: Development
+name: Development
 
 on:
   push:
